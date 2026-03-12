@@ -2,5 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: var(--cor-fundo);
+    font-family: 'Intel One', sans-serif;
 }
 
+:root {
+    --cor-fundo: #F8FAFC80;
+    --cor-fundo-secundaria: #F8FAFC;
+    --cor-secundaria: #E30613;
+    --cor-terciaria: #E306131A;
+    --cor-font: #475569;
+
+}

@@ -1,0 +1,99 @@
+.icon_main i{
+    padding: 8px;
+    color: var(--cor-fundo-secundaria);
+    background-color: var(--cor-secundaria);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.edustock {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 8px;
+}
+
+.botoes > button{
+    width: 220px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: var(--cor-fundo);
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    color: var(--cor-font);
+}
+
+.botoes > button:hover {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.barra_lateral {
+    margin-left: 15px;
+}
+
+.suporte {
+    padding: 10px;
+    background-color: var(--cor-fundo);
+    display: flex;
+    flex-direction: column;
+    padding-right: 80px;
+    border-radius: 6px;
+    font-size: 14px;
+    gap: 8px;
+    color: var(--cor-font);
+}
+
+.suporte-p {
+    font-size: 12px;
+    
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+img {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.conta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pesquisa_icon {
+    position: relative;
+    width: 448px;
+}
+
+.pesquisa {
+    width: 100%;
+    height: 36px;
+    border-radius: 12px;
+    background-color: #F1F5F9;
+    border: none;
+    padding-left: 35px; /* espaço para o ícone */
+}
+
+.pesquisa_icon i {
+    position: absolute;
+    left: 10px;
+    top: 34%;
+    transform: translateY(-50%);
+    color: #64748B;
+}

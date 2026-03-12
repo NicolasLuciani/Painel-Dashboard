@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Intel+One:wght@400;700&display=swap');
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.barra_lateral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 100vh; 
+    width: 220px; 
+    background-color: #f8f8f8; 
+}
+
+.pesquisa_cino {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_p_c {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* separa esquerda e direita */
+    gap: 20px;
+}
