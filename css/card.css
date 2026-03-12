@@ -30,6 +30,8 @@
 .botoes > button:hover {
     background-color: var(--cor-terciaria);
     color: var(--cor-secundaria);
+    transform: scale(1.05);
+    transition: ease 0.2s;
 }
 
 .botoes {
