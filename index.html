@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
     <title>Painel Dashboard</title>
 </head>
 <body>
@@ -28,7 +31,6 @@
             <p><i class="bi bi-question-circle"></i> Central de Ajuda</p>
         </div>
     </div>
-
 
 
     <div class="main">
@@ -76,29 +78,125 @@
 
         <div class="cards_personalizados">
             <div class="card_top">
-                <div class="icon1">
-                    <i class="bi bi-clipboard2-check"></i>
+                <div class="icon1_renda">
+                    <div class="icon1">
+                        <i class="bi bi-clipboard2-check"></i>
+                    </div>
+
+                    <div class="renda">
+                        <i class="bi bi-graph-up-arrow"></i><span> + 12%</span>
+                    </div>
                 </div>
 
-                <span class="prioridade">
-                    <i class="bi bi-exclamation-triangle"></i> Alta Prioridade
-                </span>
+                <div class="renda_abaixo">
+                    <span>Total de Ativos</span>
+                    <h2 class="h2_renda"><b>2,840</b></h2>
+                </div>
             </div>
 
 
-            <div>
-                <div class="icon2">
-                    <i class="bi bi-calendar-check"></i>
+            <div class="card_top">
+                <div class="calendario_acima">
+                    <div class="icon2">
+                        <i class="bi bi-calendar-check"></i>
+                    </div>
+
+                    <div class="calendario">
+                        <span>Semestre Atual</span>
+                    </div>
+                </div>
+
+                <div class="calendario_abaixo">
+                    <span>Itens em Uso</span>
+                    <h2 class="h2_calendario"><b>2,156</b></h2>
                 </div>
             </div>
 
 
-            <div>
-                <div class="icon3">
-                    <i class="bi bi-wrench"></i>
+            <div class="card_top">
+                <div class="prioridade_acima">
+                    <div class="icon3">
+                        <i class="bi bi-wrench"></i>
+                    </div>
+                    <div class="prioridade">
+                        <i class="bi bi-exclamation-triangle"></i><span> Alta Prioridade</span>
+                    </div>
+                </div>
+
+                <div class="prioridade_abaixo">
+                    <span>Necessita Reparo</span>
+                    <h2>42</h2>
                 </div>
             </div>
         </div>
+
+
+        <div class="lista_de_ativos">
+            <div class="header">
+                <div class="botoes_normais">
+                    <h1>Lista de Ativos</h1>
+                    <button>Todos</button>
+                    <button>Mobiliário</button>
+                    <button>Tecnologia</button>
+                </div>
+
+                <div class="botoes_diferentes">
+                    <button><i class="bi bi-filter"></i> Filtrar</button>
+                    <button><i class="bi bi-download"></i> Exportar</button>
+                </div>
+                </div>
+
+                <div class="header_secundaria">
+                    <span>NOME DO ITEM</span>
+                    <div class="header_secundaria_meio">
+                        <span class="um">CATEGORIA</span>
+                        <span>QUANTIDADE</span>
+                        <span>STATUS</span>
+                    </div>
+                    <span>AÇÕES</span>
+                </div>
+
+
+                <div class="coluna__">
+                    <div class="item">
+                        
+                        <div class="info">
+                            <div class="icone">
+                                <i class="bi bi-house-fill"></i>
+                            </div>
+                            <div class="id">
+                                <span class="titulo">Ergonomic Chair</span>
+                                <small>ID: FUR-001-2024</small>
+                            </div>
+                        </div>
+                        <div class="meio_coluna_">
+                            <div class="meio_coluna">
+                                <span>Mobiliário</span>
+                                <span>124</span>
+                                <span class="disponivel">Disponível</span>
+                            </div>
+                        </div>
+                        <div class="acoes">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="footer">
+                    <span>
+                        Mostrando 1 a 4 de 2.840 resultados
+                    </span>
+                    <div class="botoes_diferentes">
+                        <button>Anterior</button>
+                        <button>Proximo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 </body>
 </html>
