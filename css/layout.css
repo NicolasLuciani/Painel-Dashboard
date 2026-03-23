@@ -403,10 +403,26 @@ i {
     font-weight: 1000px;
 }
 
+.botao_mais {
+    display: flex;
+    right: 6px;
+    bottom: 80px;
+    position: fixed;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    width: 85px;
+    border-radius: 1000px;
+    background-color: #E30613;
+}
+
 /* TABLET */
 @media screen and (max-width: 587px) {
     body {
         grid-template-columns: 1fr;
+        height: 880px;
 
     }
     .barra_lateral {
@@ -477,7 +493,7 @@ i {
     }
 
     .cards_personalizados > div {
-        width: 90%;
+        width: 100%;
     }
 
     .lista_de_ativos {
@@ -487,8 +503,8 @@ i {
     .visao_geral {
         display: flex;
         align-items: center;
-        margin-left: 45px;
-        margin-right: 45px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .card_top1:hover {
@@ -508,6 +524,9 @@ i {
         transform: scale(1.01);
         transition: ease 0.3s;
     }
+    .footer_mobile {
+        display: flex;
+    }
 
 
 
@@ -525,12 +544,64 @@ i {
         display: none;
     }
 
-    header {
+    .burguer {
+        position: absolute;
+        top: 16px;
+        left: 30px;
+        display: block;
+    }
+
+    .text_perfil {
         display: none;
     }
 
-    img{
+    .conta_img {
+        position: absolute;
+        top: 2px;
+        right: 3px;
+    }
+
+    header {
+        height: 65px;
+    }
+
+    .btn_visao_geral {
         display: none;
+    }
+
+    .header_p_c {
+        display: flex;
+        align-items: center;
+    }
+
+    .header_p_c .pesquisa_icon {
+        margin-left: 70px;
+        margin-top: 6px;
+    }
+
+    .header_p_c .pesquisa_icon .pesquisa {
+        width: 180px; 
+    }
+
+    .cino {
+        position: absolute;
+        top: 9px;
+        right: -105px;
+        margin-right: 190px;
+        margin-top: 8px;
+    }
+
+    .divisoria {
+        position: absolute;
+        top: 9px;
+        right: -30px;
+        width: 2px;
+        margin-right: 100px;
+    }
+
+    .botao_mais {
+        width: 56px;
+        font-size: 27px;
     }
 
 }
